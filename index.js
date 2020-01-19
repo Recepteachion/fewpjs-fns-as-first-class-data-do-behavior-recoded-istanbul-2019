@@ -13,7 +13,11 @@ function greet(String){
   let str = String.split(":")
   if (parseInt(str[0]) < 12 ){
     return "Good Morning";
-  }else if ( 17>parseInt(str[0]) )
+  }else if ( 17> parseInt(str[0]) >12 ) {
+    return "Goo Afternoon";
+  }else{
+    return "Good Evening";
+  }
   
   
 }
