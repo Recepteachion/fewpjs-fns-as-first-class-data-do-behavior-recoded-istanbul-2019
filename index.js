@@ -18,9 +18,9 @@ function greet(String){
   }else{
     return "Good Evening";
   }
-  
-  
 }
+
+
 
 
 /* Write your implementation of displayMessage() */
